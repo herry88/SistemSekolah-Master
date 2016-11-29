@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tito.cyber.sistemsekolah">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logosis"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.guru.GuruHomeActivity"
+            android:label="Menu Guru"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".ui.siswa.SiswaHomeActivity"
+            android:label="Menu Siswa"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".ui.walimurid.WalimuridHomeActivity"
+            android:label="Menu Walimurid"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+<activity android:name=".ui.pengumuman.PengumumanActivity"
+    android:label="Pengumuman"/>
+        <activity android:name=".ui.pengumuman.DetailPengumumanActivity"
+            android:label="Detail Pengumuman"/>
+<!--GURU -->
+<activity android:name=".ui.guru.item.InputNilaiActivity"
+    android:label="Input Nilai"/>
+        <activity android:name=".ui.guru.item.JadwalajarGuruActivity"
+            android:label="Jadwal Ajar"/>
+        <activity android:name=".ui.guru.item.JadwalujianGuruActivity"
+            android:label="Jadwal Ujian"/>
+        <activity android:name=".ui.guru.item.JaDetailActivity"
+            android:label="Detail Jadwal"/>
+        <activity android:name=".ui.guru.PilihSiswaActivity"
+            android:label="Pilih Siswa"/>
+        <activity android:name=".ui.guru.PilihAbsensiActivity"
+            android:label="Pilih Siswa"/>
+        <activity android:name=".ui.guru.AbsensiActivity"
+            android:label="Absensi"/>
+
+
+
+
+
+        <!--SISWA-->
+        <activity android:name=".ui.siswa.LihatJadwalSiswaActivity"
+            android:label="Jadwal"/>
+        <activity android:name=".ui.siswa.LihatJadwalUjianSiswaActivity"
+            android:label="Jadwal Ujian"/>
+        <activity android:name=".ui.siswa.LihatNilaiSiswaActivity"
+            android:label="Nilai"/>
+        <activity android:name=".ui.siswa.DetailJadwalActivity"
+            android:label="Detail Jadwal"/>
+        <activity android:name=".ui.siswa.DetailUjianActivity"
+            android:label="Detail Jadwal Ujian"/>
+        <activity android:name=".ui.siswa.DetailNilaiActivity"
+            android:label="Detail Nilai"/>
+        <!--WALIMURID-->
+        <activity android:name=".ui.siswa.LihatAbsensiActivity"
+            android:label="Record Absensi"/>
+
+
+
+        <activity android:name=".CarapengunaanActivity"
+            android:label="Cara"/>
+        <activity android:name=".ProfilpengembangActivity"
+            android:label="Pengembang"/>
+    </application>
+
+</manifest>

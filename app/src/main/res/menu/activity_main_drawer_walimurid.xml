@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nilaisiswa"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Nilai Siswa" />
+        <item
+            android:id="@+id/nav_recordabsensi"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Record Absensi" />
+        <item
+            android:id="@+id/nav_pengumuman"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Pengumuman" />
+        </group>
+
+
+</menu>

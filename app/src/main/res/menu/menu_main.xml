@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_cara" android:id="@+id/action_petunjuk" android:orderInCategory="100" android:title="Petunjuk" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_info" android:id="@+id/action_profil" android:orderInCategory="200" android:title="Profil Pengembang" app:showAsAction="ifRoom" />
+</menu>

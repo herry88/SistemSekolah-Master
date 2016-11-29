@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_jadwalhariansiswa"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Jadwal Harian" />
+        <item
+            android:id="@+id/nav_jadwalujiansiswa"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Jadwal Ujian" />
+        <item
+            android:id="@+id/nav_lihatnilai"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Nilai" />
+        <item
+            android:id="@+id/nav_pengumuman"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Pengumuman" />
+    </group>
+
+</menu>
